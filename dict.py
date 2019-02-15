@@ -20,4 +20,6 @@ def csvToDict(csv_name, output_name):
     f.write("STATISTICS = " + str(dict))
     f.close()
 
-    return open(output_name, 'r').read()
+    print("The CSV was converted to Dictionary successfully")
+
+    return
